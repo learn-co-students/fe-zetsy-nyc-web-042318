@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +15,63 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	color: #4D4D4D
 }
 
+hr {
+	margin: 5px 0px;
+}
+
+header h1 {
+	font-family: 'EB Garamond', serif;
+	font-size: 4.375em;
+	position: relative;
+	top: 15px;
+	color: rgb(149, 173, 167);
+}
+
+h3 {
+	color: rgb(149, 173, 167);
+	font-family: 'EB Garamond', serif;
+	font-size: 1.875em;
+	margin: 15px 10px 10px 0px;
+}
+
+.hero img {
+	border: 3px solid rgb(149, 175, 169);
+}
+
+#about a{
+	text-decoration: none;
+}
+
+.image {
+	float: left;
+	display: block;
+	margin: 2px;
+}
+
+.image img{
+	border: 3px solid rgb(199, 202, 202);
+	transition: all 1s ease-in-out;
+}
+
+.image img:hover{
+	border: 3px solid rgb(99, 118, 115);
+	filter: brightness(75%)
+}
+
+.clearfix:after{
+	content:".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+footer {
+	float: right;
+	font-size: .8em
+}
 /* Write all remaining styles here */
