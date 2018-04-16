@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,47 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#copyright {
+	text-align: right;
+	font-size: 80%;
+}
+
+.logo {
+	position: relative;
+}
+
+.logo img {
+	position: relative;
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(204, 204, 204);
+	border-image: initial;
+	padding: 1px;
+}
+
+a.logo:hover img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgb(111,127,122);
+}
+
+#necklace-img {
+	border: 5px solid rgb(152, 173, 166);
+}
+
+h1 {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	color: rgb(152,173,166);
+	font-family: 'Baskerville', serif;
+	font-size: 500%;
+}
+
+h2 {
+	display: block;
+	color: rgb(111,127,122);
+	font-family: 'Baskerville', serif;
+	font-size: 200%;
+}
